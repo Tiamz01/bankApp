@@ -45,7 +45,9 @@ const Hero = () => (
 				nihil dignissimos cumque excepturi.
 			</p>
 		</div>
-		<div className={`${styles.flexCenter}flex-1 flex-row relative`}>
+		<div
+			className={`${styles.flexCenter}flex-1 flex-row md:my-0 my-10 relative`}
+		>
 			<img
 				src={robot}
 				alt='robot'
