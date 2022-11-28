@@ -2,7 +2,7 @@ import React from "react";
 import { quotes } from "../assets";
 
 const FeedBackCard = ({ content, name, title, img }) => (
-	<div className='flex justify-center px-10 flex-col py-12 rounded-[20px] max-w-[370px] md:mr-10 sm:mr-5 mr-0 my-5 feedback-card'>
+	<div className='flex justify-center px-10 flex-col py-12 rounded-[20px] max-w-[370px] md:mr-10 sm:mr-5 mr-0 feedback-card'>
 		<img
 			src={quotes}
 			alt='double-quotes'
